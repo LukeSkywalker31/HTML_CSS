@@ -44,11 +44,40 @@ a:hover{
     text-decoration: underline;
 }
 
-section.normal{
+section{
     font-family: var(--fonte_3);
     font-size: 3.5vw;
     line-height: 2em;
     text-align: justify;
     padding-top: 5%;
     padding-left: 2%;
+    padding: 5%;
+}
+section.imagem{
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#img1{
+    background-image: url(imagens/background001.jpg);
+    background-position: left center;
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.514);
+    display: inline-block;
+    padding: 10px 10px 30px 10px;
+}
+section#img2{
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+}
+footer{
+    font-family: var(--fonte_1);
+    font-size: 1.1em;
+    font-weight: normal;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 3px;
 }
